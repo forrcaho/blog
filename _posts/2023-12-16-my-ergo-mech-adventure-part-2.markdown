@@ -6,6 +6,9 @@ date:   2023-12-16
 
 # My Ergo-Mech Adventure (part 2)
 
+I guess this officially qualifies as a "series" since I managed to finish part 2.
+* See [part 1]({% post_url 2023-08-27-my-ergo-mech-adventure-part-1 %})
+
 # My Model 100 Arrives
 
 ![My Model 100]({{ "/assets/Model_100.jpg" | relative_url }})
