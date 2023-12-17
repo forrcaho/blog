@@ -6,6 +6,10 @@ date:   2023-12-16
 
 # My Ergo-Mech Adventure (part 2)
 
+I guess this officially qualifies as a "series" since I managed to finish part 2.
+* See [part 1]({% post_url 2023-08-27-my-ergo-mech-adventure-part-1 %})
+* {{ site.baseurl }}
+
 # My Model 100 Arrives
 
 ![My Model 100]({{ "/assets/Model_100.jpg" | relative_url }})
@@ -23,9 +27,9 @@ I never got used to the idea of not having all the modifiers on both sides, so t
 
 I also didn't like not having a space key on the left, perhaps because I'm left-handed. I could have swapped space and backspace, but instead I decided to have a space key on both halves, so I made the backspace key layer+space.
 
-Another change to the keyboard layout on the Model 100 is that, since the layout is split, they have placed an extra column on the right of the left half and the left of the right half. They have moved keys here that the pinkies need to reach out for on the standard layout, so the stronger index fingers can reach them instead. The tab and escape keys are on the right of the left half, and the enter key is on the left of the right half. In the four months I used my Model 100, I never learned not to overshoot when reaching for the h key, and would frequently post just "T" in my company chat app when I was trying to start a sentence with "The".
+Another change to the keyboard layout on the Model 100 is that, since the layout is split, they have placed an extra column on the right of the left half and the left of the right half. They have moved keys here that the pinkies need to reach out for on the standard layout, so the stronger index fingers can reach them instead. The tab and escape keys are on the right of the left half, and the enter key is on the left of the right half. In the four months I used my Model 100, I never learned not to overshoot and hit enter when reaching for the h key, so I would frequently post just "T" in my company chat app when I was trying to start a sentence with "The".
 
-The firmware for the Model 100 is a different open source project called [Kaleidoscope](https://github.com/keyboardio/Kaleidoscope). Kaleidoscope is written in C++ instead of C, which I find more difficult, and the documentation is very sparse. There is a community with a message board and a Discord chat, but it's still difficult to get the information needed to do anything sophisticated. I managed to port my chorded programming macros over as I had them on the FoldKB, but implementing the caps lock blink I found so useful was beyond me, at least in the time I was willing to invest without getting paid. (Users who aren't as geeky as me can probably do all the customization they want in [Chrysalis](https://github.com/keyboardio/Chrysalis#readme), the GUI tool they provide.)
+The firmware for the Model 100 is not QMK, but a different open source project called [Kaleidoscope](https://github.com/keyboardio/Kaleidoscope). Kaleidoscope is written in C++ instead of C, which I find more difficult, and the documentation is very sparse. There is a community with a message board and a Discord chat, but it's still difficult to get the information needed to do anything sophisticated. I managed to port my chorded programming macros over as I had them on the FoldKB, but implementing the caps lock blink I found so useful was beyond me, at least in the time I was willing to invest without getting paid. (Users who aren't as geeky as me can probably do all the customization they want in [Chrysalis](https://github.com/keyboardio/Chrysalis#readme), the GUI tool they provide.)
 
 One feature which is better geared towards the "lots of thumb keys" design that I tried is called "Space Cadet Shift", which is available in both Kaleidoscope and QMK. This is where keys can be set up to have one behavior when tapped and another when held down. I used this to make the left modifier thumb keys into the opening paren, bracket, and curly brace when tapped, and the right modifier thumb keys into the corresponding closing closing mark when tapped. I never really got used to this, but I could tell that it could work nicely for someone who was more committed to re-learning how to type.
 
