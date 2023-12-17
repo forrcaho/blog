@@ -6,10 +6,6 @@ date:   2023-12-16
 
 # My Ergo-Mech Adventure (part 2)
 
-I guess this officially qualifies as a "series" since I managed to finish part 2.
-* See [part 1]({% post_url 2023-08-27-my-ergo-mech-adventure-part-1 %})
-* {{ site.baseurl }}
-
 # My Model 100 Arrives
 
 ![My Model 100]({{ "/assets/Model_100.jpg" | relative_url }})
@@ -33,7 +29,7 @@ The firmware for the Model 100 is not QMK, but a different open source project c
 
 One feature which is better geared towards the "lots of thumb keys" design that I tried is called "Space Cadet Shift", which is available in both Kaleidoscope and QMK. This is where keys can be set up to have one behavior when tapped and another when held down. I used this to make the left modifier thumb keys into the opening paren, bracket, and curly brace when tapped, and the right modifier thumb keys into the corresponding closing closing mark when tapped. I never really got used to this, but I could tell that it could work nicely for someone who was more committed to re-learning how to type.
 
-The keys of the Model 100 are sculpted to fit together just so; it has a distinctive, aesthetic look but one consequence is that you have to order special keycap sets for it. One interesting option they have is a set of arbitrary symbols on the keys, so they're easier to visually identify but aren't tied to a specific mapping. The symbols they use for this are the as yet undeciphered characters of the Minoan script known as Linear A. I got a set of these and since I was still learning this keyboard layout, I only replaced the standard QWERTY keys where my layout changed from the default. This worked well enough, but the Linear A keycaps have more of a matte black background while the QWERTY keycaps are shiny, so they didn't match exactly.
+The keys of the Model 100 are sculpted to fit together just so; it has a distinctive, aesthetic look but one consequence is that you have to order special keycap sets for it. One interesting option they have is a set of arbitrary symbols on the keys, so they're easier to visually identify but aren't tied to a specific mapping. The symbols they use for this are the as yet undeciphered characters of the Minoan script known as [Linear A](https://en.wikipedia.org/wiki/Linear_A). I got a set of these and since I was still learning this keyboard layout, I only replaced the standard QWERTY keys where my layout changed from the default. This worked well enough, but the Linear A keycaps have more of a matte black background while the QWERTY keycaps are shiny, so they didn't match exactly.
 
 # About Tenting
 
